@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:painting"
+		},
+		"title": "Elemental Paintings",
+		"description": [
+			"",
+			{
+				"text": "Allows player to place elemental painting",
+				"color":"gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:datapack/more_armor_trim",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:fletching_table"
+		},
+		"title": "Better Hero of the Village",
+		"description": [
+			"",
+			{
+				"text": "Fletcher now gift more tipped arrow than before.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "minecraft:datapack/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

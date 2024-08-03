@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:crafting_table"
+		},
+		"title": "AIO Custom Recipe",
+		"description": [
+			"",
+			{
+				"text": "Adds several custom crafts.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "minecraft:datapack/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

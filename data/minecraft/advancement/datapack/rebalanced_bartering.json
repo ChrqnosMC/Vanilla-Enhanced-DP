@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:piglin_head"
+		},
+		"title": "Rebalanced Bartering",
+		"description": [
+			"",
+			{
+				"text": "Some Extra Piglin Barter.",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "minecraft:datapack/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

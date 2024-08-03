@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:end_stone"
+		},
+		"title": "End to Overworld",
+		"description": [
+			"",
+			{
+				"text": "Allows player to move from end to overworld",
+				"color":"gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:datapack/root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

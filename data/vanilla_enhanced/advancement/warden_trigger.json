@@ -1,0 +1,10 @@
+{
+	"rewards": {
+		"function": "vanilla_enhanced:warden_trigger"
+	},
+	"criteria": {
+		"warden_trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_chestplate"
+		},
+		"title": "God Armor Back",
+		"description": [
+			"",
+			{
+				"text": "God Armor are Back to Buisness",
+				"color": "gold"
+			}
+		],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:datapack/god_bow_back",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
