@@ -21,7 +21,7 @@
     "function": "bettervanillaadvancements:enchanting/master_armorer"
   },
   "criteria": {
-    "helmet_protection": {
+    "helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -36,131 +36,17 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:aqua_affinity",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:respiration",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "helmet_fire_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_helmets",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:fire_protection",
                   "levels": {
                     "min": 4
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:aqua_affinity",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:respiration",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "helmet_projectile_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_helmets",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:projectile_protection",
                   "levels": {
                     "min": 4
                   }
                 },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:aqua_affinity",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:respiration",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "helmet_blast_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_helmets",
-            "predicates": {
-              "enchantments": [
                 {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
@@ -197,7 +83,7 @@
         ]
       }
     },
-    "chestplate_protection_with_thorns": {
+    "chestplate_with_thorns": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -212,209 +98,17 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:thorns",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_protection_without_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
-                {
-                  "enchantments": "minecraft:protection",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_fire_protection_with_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:fire_protection",
                   "levels": {
                     "min": 4
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:thorns",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_fire_protection_without_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
-                {
-                  "enchantments": "minecraft:fire_protection",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_projectile_protection_with_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:projectile_protection",
                   "levels": {
                     "min": 4
                   }
                 },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:thorns",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_projectile_protection_without_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
-                {
-                  "enchantments": "minecraft:projectile_protection",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "chestplate_blast_protection_with_thorns": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_chestplates",
-            "predicates": {
-              "enchantments": [
                 {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
@@ -445,7 +139,7 @@
         ]
       }
     },
-    "chestplate_blast_protection_without_thorns": {
+    "chestplate_without_thorns": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -454,6 +148,24 @@
             "predicates": {
               "enchantments": [
                 {
+                  "enchantments": "minecraft:protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:fire_protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
+                  "enchantments": "minecraft:projectile_protection",
+                  "levels": {
+                    "min": 4
+                  }
+                },
+                {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
                     "min": 4
@@ -477,7 +189,7 @@
         ]
       }
     },
-    "leggings_protection": {
+    "leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -492,113 +204,17 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:swift_sneak",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "leggings_fire_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_leggings",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:fire_protection",
                   "levels": {
                     "min": 4
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:swift_sneak",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "leggings_projectile_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_leggings",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:projectile_protection",
                   "levels": {
                     "min": 4
                   }
                 },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:swift_sneak",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "leggings_blast_protection": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_leggings",
-            "predicates": {
-              "enchantments": [
                 {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
@@ -629,7 +245,7 @@
         ]
       }
     },
-    "boots_protection_depth_strider": {
+    "boots_depth_strider": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -644,149 +260,17 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:depth_strider",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_fire_protection_depth_strider": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:fire_protection",
                   "levels": {
                     "min": 4
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:depth_strider",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_projectile_protection_depth_strider": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:projectile_protection",
                   "levels": {
                     "min": 4
                   }
                 },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:depth_strider",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_blast_protection_depth_strider": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
                 {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
@@ -829,7 +313,7 @@
         ]
       }
     },
-    "boots_protection_frost_walker": {
+    "boots_frost_walker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -844,149 +328,17 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:frost_walker",
-                  "levels": {
-                    "min": 2
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_fire_protection_frost_walker": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:fire_protection",
                   "levels": {
                     "min": 4
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:frost_walker",
-                  "levels": {
-                    "min": 2
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_projectile_protection_frost_walker": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
-                {
                   "enchantments": "minecraft:projectile_protection",
                   "levels": {
                     "min": 4
                   }
                 },
-                {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                },
-                {
-                  "enchantments": "minecraft:mending",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
-                  "enchantments": "minecraft:frost_walker",
-                  "levels": {
-                    "min": 2
-                  }
-                },
-                {
-                  "enchantments": "minecraft:feather_falling",
-                  "levels": {
-                    "min": 4
-                  }
-                },
-                {
-                  "enchantments": "minecraft:soul_speed",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "boots_blast_protection_frost_walker": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "#bettervanillaadvancements:master_boots",
-            "predicates": {
-              "enchantments": [
                 {
                   "enchantments": "minecraft:blast_protection",
                   "levels": {
@@ -1032,36 +384,18 @@
   },
   "requirements": [
     [
-      "helmet_protection",
-      "helmet_fire_protection",
-      "helmet_projectile_protection",
-      "helmet_blast_protection"
+      "helmet"
     ],
     [
-      "chestplate_protection_with_thorns",
-      "chestplate_protection_without_thorns",
-      "chestplate_fire_protection_with_thorns",
-      "chestplate_fire_protection_without_thorns",
-      "chestplate_projectile_protection_with_thorns",
-      "chestplate_projectile_protection_without_thorns",
-      "chestplate_blast_protection_with_thorns",
-      "chestplate_blast_protection_without_thorns"
+      "chestplate_with_thorns",
+      "chestplate_without_thorns"
     ],
     [
-      "leggings_protection",
-      "leggings_fire_protection",
-      "leggings_projectile_protection",
-      "leggings_blast_protection"
+      "leggings"
     ],
     [
-      "boots_protection_depth_strider",
-      "boots_fire_protection_depth_strider",
-      "boots_projectile_protection_depth_strider",
-      "boots_blast_protection_depth_strider",
-      "boots_protection_frost_walker",
-      "boots_fire_protection_frost_walker",
-      "boots_projectile_protection_frost_walker",
-      "boots_blast_protection_frost_walker"
+      "boots_depth_strider",
+      "boots_frost_walker"
     ]
   ]
 }
