@@ -21,7 +21,7 @@
     "function": "bettervanillaadvancements:enchanting/master_sniper"
   },
   "criteria": {
-    "perfect_bow_infinity": {
+    "bow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -56,46 +56,6 @@
                   }
                 },
                 {
-                  "enchantments": "minecraft:unbreaking",
-                  "levels": {
-                    "min": 3
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "perfect_bow_mending": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:bow"
-            ],
-            "predicates": {
-              "enchantments": [
-                {
-                  "enchantments": "minecraft:power",
-                  "levels": {
-                    "min": 5
-                  }
-                },
-                {
-                  "enchantments": "minecraft:punch",
-                  "levels": {
-                    "min": 2
-                  }
-                },
-                {
-                  "enchantments": "minecraft:flame",
-                  "levels": {
-                    "min": 1
-                  }
-                },
-                {
                   "enchantments": "minecraft:mending",
                   "levels": {
                     "min": 1
@@ -113,11 +73,5 @@
         ]
       }
     }
-  },
-  "requirements": [
-    [
-      "perfect_bow_infinity",
-      "perfect_bow_mending"
-    ]
-  ]
+  }
 }
