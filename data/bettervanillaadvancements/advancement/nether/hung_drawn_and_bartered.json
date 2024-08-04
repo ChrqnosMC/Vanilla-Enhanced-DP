@@ -379,6 +379,44 @@
           ]
         }
       }
+    },
+    "magma_cream": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:magma_cream"
+          ]
+        }
+      }
+    },
+    "glowstone_dust": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:glowstone_dust"
+          ]
+        }
+      }
     }
   }
 }
