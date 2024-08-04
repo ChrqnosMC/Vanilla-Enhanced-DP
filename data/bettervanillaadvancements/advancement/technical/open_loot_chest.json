@@ -261,6 +261,12 @@
 				"loot_table": "minecraft:chests/trial_chambers/entrance"
 			}
 		},
+		"trial_chambers_intersection": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "minecraft:chests/trial_chambers/intersection"
+			}
+		},
 		"trial_chambers_intersection_barrel": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
@@ -325,6 +331,7 @@
 			"ancient_city_ice_box",
 			"trial_chambers_corridor",
 			"trial_chambers_entrance",
+			"trial_chambers_intersection",
 			"trial_chambers_intersection_barrel",
 			"trial_chambers_reward",
 			"trial_chambers_supply"

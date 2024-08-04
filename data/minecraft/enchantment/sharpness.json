@@ -1,16 +1,16 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.minecraft.density"
+    "translate": "enchantment.minecraft.sharpness"
   },
   "effects": {
-    "minecraft:smash_damage_per_fallen_block": [
+    "minecraft:damage": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.5,
+            "base": 1.0,
             "per_level_above_first": 0.5
           }
         }
@@ -19,17 +19,18 @@
   },
   "exclusive_set": "#minecraft:exclusive_set/weapon",
   "max_cost": {
-    "base": 25,
-    "per_level_above_first": 8
+    "base": 21,
+    "per_level_above_first": 11
   },
   "max_level": 5,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 8
+    "base": 1,
+    "per_level_above_first": 11
   },
+  "primary_items": "#minecraft:enchantable/sword",
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/mace",
-  "weight": 5
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 10
 }
