@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:strength"
+        }
+      }
+    },
+    "title": {
+      "translate": "Justice"
+    },
+    "description": {
+      "color": "#C900C7",
+      "translate": "Kill each type of Illager with a single crossbow arrow"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "bettervanillaadvancements:adventure/feeling_ill",
+  "rewards": {
+    "function": "bettervanillaadvancements:adventure/justice"
+  },
+  "criteria": {
+    "arbalistic": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:pillager"
+          },
+          {
+            "type": "minecraft:vindicator"
+          },
+          {
+            "type": "minecraft:evoker"
+          },
+          {
+            "type": "minecraft:ravager"
+          },
+          {
+            "type": "minecraft:witch"
+          }
+        ]
+      }
+    }
+  }
+}
