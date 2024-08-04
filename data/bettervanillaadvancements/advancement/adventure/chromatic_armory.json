@@ -163,6 +163,398 @@
           }
         ]
       }
+    },
+    "armadillo_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:armadillo_scute"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:blaze_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:bone"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "breeze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:breeze_rod"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:coal"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dragon_breath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:dragon_breath"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:echo_shard"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "end_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:end_crystal"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:ender_pearl"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:experience_bottle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fire_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:fire_charge"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:glow_ink_sac"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:glowstone_dust"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:gunpowder"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:heart_of_the_sea"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:honeycomb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:leather"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nautilus_shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:nautilus_shell"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:nether_brick"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:nether_star"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:netherite_scrap"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:phantom_membrane"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:prismarine_shard"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "prismarine_crystals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:prismarine_crystals"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "popped_chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:popped_chorus_fruit"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:rabbit_hide"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slime_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:slime_ball"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "turtle_scute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:turtle_scute"
+              }
+            }
+          }
+        ]
+      }
     }
   }
 }
