@@ -270,6 +270,12 @@
         "loot_table": "minecraft:chests/trial_chambers/entrance"
       }
     },
+    "trial_chambers_intersection": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/trial_chambers/intersection"
+      }
+    },
     "trial_chambers_intersection_barrel": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
