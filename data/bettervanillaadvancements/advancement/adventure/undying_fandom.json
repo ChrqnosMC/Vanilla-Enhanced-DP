@@ -414,7 +414,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:fire_resistance\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:fire_resistance"
+						}
+					}
         }
       }
     },
@@ -434,7 +438,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:harming\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:harming"
+						}
+					}
         }
       }
     },
@@ -454,7 +462,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:healing\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:healing"
+						}
+					}
         }
       }
     },
@@ -474,7 +486,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:invisibility\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:invisibility"
+						}
+					}
         }
       }
     },
@@ -494,7 +510,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:leaping\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:leaping"
+						}
+					}
         }
       }
     },
@@ -514,7 +534,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:night_vision\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:night_vision"
+						}
+					}
         }
       }
     },
@@ -534,7 +558,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:poison\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:poison"
+						}
+					}
         }
       }
     },
@@ -554,7 +582,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:regeneration\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:regeneration"
+						}
+					}
         }
       }
     },
@@ -574,7 +606,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:slowness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:slowness"
+						}
+					}
         }
       }
     },
@@ -594,7 +630,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:strength\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:strength"
+						}
+					}
         }
       }
     },
@@ -614,7 +654,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:swiftness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:swiftness"
+						}
+					}
         }
       }
     },
@@ -634,7 +678,11 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:water_breathing\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:water_breathing"
+						}
+					}
         }
       }
     },
@@ -654,7 +702,155 @@
           "items": [
             "minecraft:tipped_arrow"
           ],
-          "nbt": "{Potion:\"minecraft:weakness\"}"
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:weakness"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_slow_falling": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:slow_falling"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_turtle_master": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:turtle_master"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_wind_charged": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:wind_charged"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_weaving": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:weaving"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_oozing": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:oozing"
+						}
+					}
+        }
+      }
+    },
+    "tipped_arrow_infested": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:villager"
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:tipped_arrow"
+          ],
+					"components": {
+						"minecraft:potion_contents": {
+							"potion": "minecraft:infested"
+						}
+					}
         }
       }
     },
