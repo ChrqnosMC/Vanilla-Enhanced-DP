@@ -3,7 +3,7 @@
 		"icon": {
 			"id": "minecraft:fletching_table"
 		},
-		"title": "Better Hero of the Village",
+		"title": "More Hero of the Village Gift",
 		"description": [
 			"",
 			{
@@ -14,7 +14,7 @@
 		"show_toast": false,
 		"announce_to_chat": false
 	},
-    "parent": "minecraft:datapack/root",
+    "parent": "minecraft:datapack/villager_rebalanced",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"
