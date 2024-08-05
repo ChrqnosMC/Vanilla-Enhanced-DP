@@ -7,7 +7,7 @@
 		"description": [
 			"",
 			{
-				"text": "Display [AFK] when the player has not moved for more than 5 min.",
+				"text": "Display [AFK] when the player has not moved for more than 5 min",
 				"color": "gold"
 			}
 		],
