@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DRD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:terracotta"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "R": {
+            "item": "minecraft:raiser_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:raiser_armor_trim_smithing_template",
+        "count": 2
+    }
+}

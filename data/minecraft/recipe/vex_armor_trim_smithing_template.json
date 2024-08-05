@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DVD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "V": {
+            "item": "minecraft:vex_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:vex_armor_trim_smithing_template",
+        "count": 2
+    }
+}

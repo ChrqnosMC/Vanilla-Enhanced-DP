@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DWD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:terracotta"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "W": {
+            "item": "minecraft:wayfinder_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:wayfinder_armor_trim_smithing_template",
+        "count": 2
+    }
+}

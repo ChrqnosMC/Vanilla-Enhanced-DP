@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DSD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blackstone"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "minecraft:snout_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:snout_armor_trim_smithing_template",
+        "count": 2
+    }
+}

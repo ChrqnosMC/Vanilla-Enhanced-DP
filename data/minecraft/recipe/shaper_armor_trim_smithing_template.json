@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DSD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:terracotta"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "minecraft:shaper_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:shaper_armor_trim_smithing_template",
+        "count": 2
+    }
+}

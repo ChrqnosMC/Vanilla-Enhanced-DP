@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DRD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherrack"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "R": {
+            "item": "minecraft:rib_armor_trim_smithing_template"
+        }
+    },
+    "result": {
+        "id": "minecraft:rib_armor_trim_smithing_template",
+        "count": 2
+    }
+}
