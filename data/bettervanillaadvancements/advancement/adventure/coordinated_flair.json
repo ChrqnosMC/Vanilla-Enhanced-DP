@@ -939,28 +939,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glow_ink_sac"
+                      "material": "minecraft:glow_ink"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glow_ink_sac"
+                      "material": "minecraft:glow_ink"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glow_ink_sac"
+                      "material": "minecraft:glow_ink"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glow_ink_sac"
+                      "material": "minecraft:glow_ink"
                     }
                   }
                 }
@@ -982,28 +982,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glowstone_dust"
+                      "material": "minecraft:glowstone"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glowstone_dust"
+                      "material": "minecraft:glowstone"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glowstone_dust"
+                      "material": "minecraft:glowstone"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:glowstone_dust"
+                      "material": "minecraft:glowstone"
                     }
                   }
                 }
@@ -1197,28 +1197,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:nautilus_shell"
+                      "material": "minecraft:nautilus"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:nautilus_shell"
+                      "material": "minecraft:nautilus"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:nautilus_shell"
+                      "material": "minecraft:nautilus"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:nautilus_shell"
+                      "material": "minecraft:nautilus"
                     }
                   }
                 }
@@ -1412,28 +1412,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:prismarine_shard"
+                      "material": "minecraft:prismarine"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:prismarine_shard"
+                      "material": "minecraft:prismarine"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:prismarine_shard"
+                      "material": "minecraft:prismarine"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:prismarine_shard"
+                      "material": "minecraft:prismarine"
                     }
                   }
                 }
@@ -1498,28 +1498,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:popped_chorus_fruit"
+                      "material": "minecraft:purpur"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:popped_chorus_fruit"
+                      "material": "minecraft:purpur"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:popped_chorus_fruit"
+                      "material": "minecraft:purpur"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:popped_chorus_fruit"
+                      "material": "minecraft:purpur"
                     }
                   }
                 }
@@ -1584,28 +1584,28 @@
                 "head": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:slime_ball"
+                      "material": "minecraft:slime"
                     }
                   }
                 },
                 "chest": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:slime_ball"
+                      "material": "minecraft:slime"
                     }
                   }
                 },
                 "legs": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:slime_ball"
+                      "material": "minecraft:slime"
                     }
                   }
                 },
                 "feet": {
                   "predicates": {
                     "minecraft:trim": {
-                      "material": "minecraft:slime_ball"
+                      "material": "minecraft:slime"
                     }
                   }
                 }

@@ -325,7 +325,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:glow_ink_sac"
+                "material": "minecraft:glow_ink"
               }
             }
           }
@@ -339,7 +339,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:glowstone_dust"
+                "material": "minecraft:glowstone"
               }
             }
           }
@@ -409,7 +409,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:nautilus_shell"
+                "material": "minecraft:nautilus"
               }
             }
           }
@@ -479,7 +479,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:prismarine_shard"
+                "material": "minecraft:prismarine"
               }
             }
           }
@@ -507,7 +507,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:popped_chorus_fruit"
+                "material": "minecraft:purpur"
               }
             }
           }
@@ -535,7 +535,7 @@
           {
             "predicates": {
               "minecraft:trim": {
-                "material": "minecraft:slime_ball"
+                "material": "minecraft:slime"
               }
             }
           }
