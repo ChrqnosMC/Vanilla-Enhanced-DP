@@ -46,6 +46,9 @@
             "type_specific": {
               "type": "minecraft:raider",
               "has_raid": false
+            },
+            "location": {
+              "structures": "minecraft:mansion"
             }
           }
         }
