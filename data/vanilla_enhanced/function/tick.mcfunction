@@ -1,3 +1,8 @@
+#AFK Display
+
+scoreboard players enable @a afk
+execute as @a[scores={afk=1..}] run function vanilla_enhanced:trigger_afk
+
 #Illusioner Raider
 
 execute as @e[type=#raiders,tag=!raiders_check,limit=1,predicate=vanilla_enhanced:chance_5,nbt=!{Wave:0},nbt=!{Wave:3},nbt=!{Wave:4},nbt=!{Wave:5},nbt=!{Wave:6},nbt=!{Wave:7},nbt=!{Wave:8}] at @s run function vanilla_enhanced:spawn/illusioner
