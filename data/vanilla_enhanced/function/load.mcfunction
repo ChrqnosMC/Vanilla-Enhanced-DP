@@ -7,6 +7,7 @@ scoreboard objectives add afk.y2 dummy
 scoreboard objectives add afk.z1 dummy
 scoreboard objectives add afk.z2 dummy
 scoreboard objectives add afk.checkAFK dummy
+scoreboard objectives add afk trigger
 
 team add afk "AFK Display"
 team modify afk color white
