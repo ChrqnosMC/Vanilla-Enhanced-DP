@@ -34,7 +34,7 @@
             },
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_attacker",
+              "entity": "attacker",
               "predicate": {
                 "type_specific": {
                   "type": "minecraft:player"
@@ -45,7 +45,7 @@
               "condition": "minecraft:inverted",
               "term": {
                 "condition": "minecraft:entity_properties",
-                "entity": "direct_attacker",
+                "entity": "attacker",
                 "predicate": {
                   "effects": {
                     "more_vault:city_omen": {}
@@ -94,7 +94,7 @@
             },
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_attacker",
+              "entity": "attacker",
               "predicate": {
                 "type_specific": {
                   "type": "minecraft:player"
@@ -103,7 +103,7 @@
             },
             {
               "condition": "minecraft:entity_properties",
-              "entity": "direct_attacker",
+              "entity": "attacker",
               "predicate": {
                 "effects": {
                   "more_vault:city_omen": {}
