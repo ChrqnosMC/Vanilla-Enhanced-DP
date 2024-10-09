@@ -21,4 +21,4 @@ scoreboard objectives setdisplay below_name Health
 
 schedule function vanilla_enhanced:tick 1t
 
-tellraw @a ["",{"text":"Vanilla Enhanced datapack has been reloaded","bold":true,"color":"white"}]
+tellraw @a ["",{"text":"Vanilla Enhanced datapack has been reloaded"}]
