@@ -20,5 +20,6 @@ scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay below_name Health
 
 schedule function vanilla_enhanced:tick 1t
+schedule function vanilla_enhanced:second 1s
 
 tellraw @a ["",{"text":"Vanilla Enhanced datapack has been reloaded"}]

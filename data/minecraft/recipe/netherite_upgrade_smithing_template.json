@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DND",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:netherrack"
@@ -16,8 +12,13 @@
             "item": "minecraft:netherite_upgrade_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DND",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:netherite_upgrade_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:netherite_upgrade_smithing_template"
     }
 }

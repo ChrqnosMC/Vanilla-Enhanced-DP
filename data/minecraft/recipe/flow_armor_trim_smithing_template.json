@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DFD",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:breeze_rod"
@@ -16,8 +12,13 @@
             "item": "minecraft:flow_armor_trim_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DFD",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:flow_armor_trim_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:flow_armor_trim_smithing_template"
     }
 }

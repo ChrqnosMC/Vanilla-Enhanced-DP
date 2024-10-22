@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DJD",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:sandstone"
@@ -16,8 +12,13 @@
             "item": "minecraft:dune_armor_trim_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DJD",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:dune_armor_trim_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:dune_armor_trim_smithing_template"
     }
 }

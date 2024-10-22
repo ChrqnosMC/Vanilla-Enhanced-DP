@@ -1,9 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "iTi",
-        "iii"
-    ],
+    "category": "misc",
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
@@ -12,8 +9,12 @@
             "item": "minecraft:tnt"
         }
     },
+    "pattern": [
+        "iTi",
+        "iii"
+    ],
     "result": {
-        "id": "minecraft:tnt_minecart",
-        "count": 1
+        "count": 1,
+        "id": "minecraft:tnt_minecart"
     }
 }

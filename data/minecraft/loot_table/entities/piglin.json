@@ -32,7 +32,7 @@
                 "entity": "attacker",
                 "predicate": {
                   "effects": {
-                    "more_vault:bastion_omen": {}
+                    "vanilla_enhanced:bastion_omen": {}
                   }
                 }
               }

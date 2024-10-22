@@ -48,7 +48,7 @@
                 "entity": "attacker",
                 "predicate": {
                   "effects": {
-                    "more_vault:city_omen": {}
+                    "vanilla_enhanced:city_omen": {}
                   }
                 }
               }
@@ -106,7 +106,7 @@
               "entity": "attacker",
               "predicate": {
                 "effects": {
-                  "more_vault:city_omen": {}
+                  "vanilla_enhanced:city_omen": {}
                 }
               }
             }

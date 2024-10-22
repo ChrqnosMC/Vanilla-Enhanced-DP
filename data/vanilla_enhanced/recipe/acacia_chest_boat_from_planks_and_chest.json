@@ -1,9 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#C#",
-        "###"
-    ],
+    "category": "misc",
+    "group": "chest_boat",
     "key": {
         "#": {
             "item": "minecraft:acacia_planks"
@@ -12,8 +10,12 @@
             "item": "minecraft:chest"
         }
     },
+    "pattern": [
+        "#C#",
+        "###"
+    ],
     "result": {
-        "id": "minecraft:acacia_chest_boat",
-        "count": 1
+        "count": 1,
+        "id": "minecraft:acacia_chest_boat"
     }
 }

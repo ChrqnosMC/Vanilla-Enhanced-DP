@@ -1,17 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "###",
-        "###",
-        "###"
-    ],
+    "category": "building",
     "key": {
         "#": {
             "item": "minecraft:bone"
         }
     },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
     "result": {
-        "id": "minecraft:bone_block",
-        "count": 3
+        "count": 3,
+        "id": "minecraft:bone_block"
     }
 }

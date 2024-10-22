@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DTD",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:prismarine"
@@ -16,8 +12,13 @@
             "item": "minecraft:tide_armor_trim_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DTD",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:tide_armor_trim_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:tide_armor_trim_smithing_template"
     }
 }
