@@ -1,9 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#C#",
-        "###"
-    ],
+    "category": "misc",
+    "group": "chest_boat",
     "key": {
         "#": {
             "item": "minecraft:bamboo_planks"
@@ -12,8 +10,12 @@
             "item": "minecraft:chest"
         }
     },
+    "pattern": [
+        "#C#",
+        "###"
+    ],
     "result": {
-        "id": "minecraft:bamboo_chest_raft",
-        "count": 1
+        "count": 1,
+        "id": "minecraft:bamboo_chest_raft"
     }
 }

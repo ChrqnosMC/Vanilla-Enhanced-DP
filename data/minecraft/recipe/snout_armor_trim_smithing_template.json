@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DSD",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:blackstone"
@@ -16,8 +12,13 @@
             "item": "minecraft:snout_armor_trim_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DSD",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:snout_armor_trim_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:snout_armor_trim_smithing_template"
     }
 }

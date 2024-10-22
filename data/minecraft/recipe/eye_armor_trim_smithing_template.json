@@ -1,10 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#D#",
-        "DED",
-        "#D#"
-    ],
+    "category": "misc",
     "key": {
         "#": {
             "item": "minecraft:end_stone"
@@ -16,8 +12,13 @@
             "item": "minecraft:eye_armor_trim_smithing_template"
         }
     },
+    "pattern": [
+        "#D#",
+        "DED",
+        "#D#"
+    ],
     "result": {
-        "id": "minecraft:eye_armor_trim_smithing_template",
-        "count": 2
+        "count": 2,
+        "id": "minecraft:eye_armor_trim_smithing_template"
     }
 }

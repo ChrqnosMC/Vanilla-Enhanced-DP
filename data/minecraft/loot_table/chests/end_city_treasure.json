@@ -368,7 +368,7 @@
                 "ominous_bottle_amplifier": 3.0,
                 "hide_additional_tooltip": {},
                 "lore": [
-                    "{ 'color': 'blue', 'italic': false, 'translate': 'item.vanilla_enhanced.dreaming_bottle_4', 'fallback': 'Dreaming IV (1:20:00)' }"
+                    "{ 'color': 'blue', 'italic': false, 'translate': 'item.vanilla_enhanced.dreaming_bottle4', 'fallback': 'Dreaming IV (1:20:00)' }"
                 ]
               }
             }
@@ -392,7 +392,7 @@
                 "ominous_bottle_amplifier": 4.0,
                 "hide_additional_tooltip": {},
                 "lore": [
-                    "{ 'color': 'blue', 'italic': false, 'translate': 'item.vanilla_enhanced.dreaming_bottle_5', 'fallback': 'Dreaming V (1:40:00)' }"
+                    "{ 'color': 'blue', 'italic': false, 'translate': 'item.vanilla_enhanced.dreaming_bottle5', 'fallback': 'Dreaming V (1:40:00)' }"
                 ]
               }
             }

@@ -21,5 +21,3 @@ execute as @a[advancements={vanilla_enhanced:check_sleep=true}] at @s run functi
 #End to Overworld
 
 execute as @a at @s run function vanilla_enhanced:connected_world
-
-schedule function vanilla_enhanced:tick 1t
